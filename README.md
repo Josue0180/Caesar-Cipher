@@ -1,4 +1,4 @@
-# Caesar-Cipher
+# Caesar Cipher
 
 ## Etapas do projeto
 
