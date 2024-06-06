@@ -1,22 +1,18 @@
 :root {
     --color-primary: #890504;
-    --color-primary-hover: #ff0000;
+    --color-primary-hover: #FF0000;
     --color-primary-dark: #990100;
 
-    --color-text: #fff0f3;
+    --color-text: #FFF0F3;
     --color-background: #220901;
 }
 
 body {
     background: var(--color-background);
     color: var(--color-text);
-    font-family: Roboto;
+    font-family: Ubuntu;
     font-size: 1.2rem;
     line-height: 1.5;
-}
-
-.info{
-    text-align: center;
 }
 
 .alert {
@@ -26,7 +22,11 @@ body {
     background-color: var(--color-primary-dark);
 }
 
-.cipher-container{
+.info {
+    text-align: center;
+}
+
+.cipher-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
